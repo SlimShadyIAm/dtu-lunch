@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  dtu-lunch:
+    build:
+      context: .
+      dockerfile: Dockerfile
