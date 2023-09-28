@@ -1,1 +1,1 @@
-4 * * * * /usr/local/bin/python /app/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+0 4 * * 1-5 /usr/local/bin/python /app/main.py > /proc/1/fd/1 2>/proc/1/fd/2
